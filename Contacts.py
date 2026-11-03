@@ -4,7 +4,7 @@ class Contacts:
     def __init__(self):
         info = "Manage you contacts usin this app"
         color = "GREY"
-        version = 0.1
+        version = 1.0
         self.sc = SmartConsole("Contact manager", version, info, color, "640x640")
         self.sc.add_main_menu_item("DISPLAY CONTACTS", self.display_contacts)
         self.sc.add_main_menu_item("NEW CONTACT", self.add_new_contact)
